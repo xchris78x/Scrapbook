@@ -1,0 +1,80 @@
+body {
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mt-custom {
+    margin-top: -180px;
+}
+
+.ml-custom {
+  margin-left: -50px;
+}
+
+.button{
+  border-color: white;
+  font-size: 2rem;
+  margin-right: 50px;
+}
+
+.pg2 {
+  margin-top: 11%;
+}
+
+.pg3{
+  margin-top: 11%;
+}
+
+.pg4{
+  margin-top: 11%;
+}
+
+.pg4s{
+  margin-left: 20%;
+}
+
+@media (max-width: 767px) {
+  .pg2 {
+      background-image: none !important;
+      padding: 20px;
+  }
+  
+  .pg2 h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      color: black;
+  }
+  
+  .pg2 p {
+      font-size: 1.2rem;
+      line-height: 1.4;
+      color: black !important;
+  }
+  
+  .pg2 .button {
+      margin-bottom: 20px;
+  }
+
+  .pg3s, .pg3d{
+    display: none;
+}
+
+.rect {
+  height: 100px;
+  width: 95%;
+}
+
+.pg9{
+  margin-top: 50px;
+}
+
+.pg9b{
+  margin-bottom: 50px;
+}
+}
+
+
+
+
+
